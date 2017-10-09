@@ -1,0 +1,35 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/css/main.css"/>
+<link rel="stylesheet" href="./assets/css/chat.css"/>
+<meta charset="utf-8"/>    
+</head>
+<body id="body">
+<div class="container">
+	<div class="row chat-row">
+		<div class="col-md-8 col-md-offset-2">			
+			<span id="chat-area"></span>	
+		</div>
+	</div>
+</div>
+<!-- Area donde se muestra la informacion del chat y tambien los textos predeterinados -->
+<div class="container send-wrapper">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 send-inner-wrapper">
+			<p class="send-message-help-text">Cuentanos tus inquietudes, con gusto seran respondidas:</p>
+			<input type="text"   style="width:100%;"        class="send-textbox" />
+			<center><p>Escribe tu mensaje y presiona "Enter"</p>
+			<p>UNISANGIL</p></center>
+		</div>
+	</div>
+</div>
+<!-- otras librerias de uso necesario-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./js/eliza.js"></script>
+<script src="./js/actions.js"></script>
+</body>	
+</html>
